@@ -1,0 +1,29 @@
+
+body {
+    color: #fff;
+}
+
+.container {
+}
+
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    background: hsl(340, 29%, 67%);
+    border: 1px #ccc solid;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+    line-height: 88px;
+   
+}
+
+[class*="col"] > .row > [class*="col"] 
+{
+   height: 100%;
+   background-color: rosybrown;
+   line-height: 76px;
+  
+}
